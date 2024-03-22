@@ -29,7 +29,6 @@ def predict_datapoint():
     result=""
 
     if request.method=='POST':
-
         Pregnancies=int(request.form.get("Pregnancies"))
         Glucose = float(request.form.get('Glucose'))
         BloodPressure = float(request.form.get('BloodPressure'))
